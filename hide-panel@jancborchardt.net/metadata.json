@@ -1,8 +1,8 @@
 {
-  "name": "Hide Panel",
-  "description": "Show the top panel only in the Activities overview. Also removes the hot corner so it's not triggered by accident. Switch to Activities with the Super key or cycle apps with Alt+Tab.",
+  "name": "Distraction-Free",
+  "description": "Show Panel and Message Tray only in the Activities overview. Also removes the hot corner so it's not triggered by accident. Switch to Activities with the Super key or cycle apps with Alt+Tab.",
   "shell-version": ["3.2.1","3.2.2","3.4","3.6"],
   "url": "http://github.com/jancborchardt/gnome-shell-extensions",
-  "uuid": "hide-panel@jancborchardt.net",
-  "version": 2
+  "uuid": "distraction-free@jancborchardt.net",
+  "version": 3
 }

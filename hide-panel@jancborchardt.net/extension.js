@@ -3,28 +3,31 @@
 
 const Overview = imports.ui.main.overview;
 const Panel = imports.ui.main.panel;
+const MessageTray = imports.ui.main.messageTray;
 
 function init() {
 }
 
 function enable() {
-    hidePanel();
+    hideDistractions();
     Panel._activitiesButton.actor.hide();
-    Overview.connect('hiding', hidePanel);
-    Overview.connect('showing', showPanel);
+    Overview.connect('hiding', hideDistractions);
+    Overview.connect('showing', showDistractions);
 }
 
 function disable() {
-    showPanel();
+    showDistractions();
     Panel._activitiesButton.actor.show();
-    Overview.disconnect(Overview.connect('hiding', hidePanel));
-    Overview.disconnect(Overview.connect('showing', showPanel));
+    Overview.disconnect(Overview.connect('hiding', hideDistractions));
+    Overview.disconnect(Overview.connect('showing', showDistractions));
 }
 
-function hidePanel() {
+function hideDistractions() {
     Panel.actor.hide();
+    MessageTray.actor.hide()
 }
 
-function showPanel() {
+function showDistractions() {
     Panel.actor.show();
+    MessageTray.actor.show()
 }
