@@ -4,5 +4,5 @@
   "shell-version": ["3.2.1","3.2.2","3.4","3.6"],
   "url": "http://github.com/jancborchardt/gnome-shell-extensions",
   "uuid": "hide-panel@jancborchardt.net",
-  "version": 1
+  "version": 2
 }
