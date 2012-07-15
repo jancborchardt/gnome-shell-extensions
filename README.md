@@ -1,15 +1,19 @@
-# Remove Workspaces Sidebar
+# GNOME Shell Extensions
 
-A [Gnome Shell extension](http://extensions.gnome.org/extension/387/remove-workspaces-sidebar/) to remove the right-side workspace thumbnails sidebar from the Activities overview. Perfect if you don't use workspaces.
+Some extensions for the great [GNOME Shell](http://gnome.org).
+
+* **[Hide Panel](http://extensions.gnome.org/extension/389/hide-panel/)**: Show the top panel only in the Activities overview. Also removes the hot corner so it's not triggered by accident. Switch to Activities with the Super key or cycle apps with Alt+Tab.
+* **[Remove Workspaces Sidebar](http://extensions.gnome.org/extension/387/remove-workspaces-sidebar/)**: Remove the right-side workspace thumbnails sidebar from the Activities overview. Perfect if you don't use workspaces.
 
 
 ## Installation
 
-Until the extension is approved and available online on the [Gnome extension platform](http://extensions.gnome.org/extension/387/remove-workspaces-sidebar/), you can install it manually:
+Until the extensions are approved and available online on the [GNOME Shell Extension platform](http://extensions.gnome.org), you can install them manually:
 
-1. Go to the directory _~/.local/share/gnome-shell/extensions_
-2. Create a new folder _remove-workspaces-sidebar@jancborchardt.net_
-3. Put these files in there. That's it. (Maybe you need to enable the extension by installing gnome-tweak-tool.)
+1. Put these folders in the hidden directory _~/.local/share/gnome-shell/extensions_
+2. Restart GNOME Shell: press Alt+F2, then type _r_ in the prompt and press Enter.
+3. [Enable the extension.](http://extensions.gnome.org/local/)
+
 
 ## License (MIT)
 
