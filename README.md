@@ -2,7 +2,7 @@
 
 Some extensions for the great [GNOME Shell](http://gnome.org). They are highly opinionated and really not for everyone, although the Shell design could take hints from them. Keep in mind I mostly use the browser and need the desktop to get out of my way.
 
-* **[Distraction-Free](http://extensions.gnome.org/extension/389/hide-panel/)**: Show Panel and Message Tray only in the Activities overview. Also removes the hot corner so it's not triggered by accident. Switch to Activities with the Super key or cycle apps with Alt+Tab.
+* **[Distraction-Free](http://extensions.gnome.org/extension/393/distraction-free/)**: Show Panel and Message Tray only in the Activities overview. Also removes the hot corner so it's not triggered by accident. Switch to Activities with the Super key or cycle apps with Alt+Tab.
 * **[Remove Workspaces Sidebar](http://extensions.gnome.org/extension/387/remove-workspaces-sidebar/)**: Remove the right-side workspace thumbnails sidebar from the Activities overview. Perfect if you don't use workspaces.
 
 
