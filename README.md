@@ -1,18 +1,10 @@
 # GNOME Shell Extensions
+by [Jan-Christoph Borchardt](http://jancborchardt.net)
 
 Some extensions for the great [GNOME Shell](http://gnome.org). They are highly opinionated and really not for everyone, although the Shell design could take hints from them. Keep in mind I mostly use the browser and need the desktop to get out of my way.
 
 * **[Distraction-Free](http://extensions.gnome.org/extension/393/distraction-free/)**: Show Panel and Message Tray only in the Activities overview. Also removes the hot corner so it's not triggered by accident. Switch to Activities with the Super key or cycle apps with Alt+Tab.
 * **[Remove Workspaces Sidebar](http://extensions.gnome.org/extension/387/remove-workspaces-sidebar/)**: Remove the right-side workspace thumbnails sidebar from the Activities overview. Perfect if you don't use workspaces.
-
-
-## Installation
-
-Until the extensions are approved and available online on the [GNOME Shell Extension platform](http://extensions.gnome.org), you can install them manually:
-
-1. Put these folders in the hidden directory _~/.local/share/gnome-shell/extensions_
-2. Restart GNOME Shell: press Alt+F2, then type _r_ in the prompt and press Enter.
-3. [Enable the extension.](http://extensions.gnome.org/local/)
 
 
 ## Other Extensions I like
@@ -24,6 +16,7 @@ Even though I love GNOME Shell, there are some things which need to be improved.
 * **[Windows Alt Tab](http://extensions.gnome.org/extension/38/windows-alt-tab/)**: Because grouping windows by app makes 0 sense.
 * **[Quit Button](http://extensions.gnome.org/extension/156/quit-button/)**: I know my name, no need to show it to me all the time.
 * **[Nothing To Do](http://extensions.gnome.org/extension/153/nothingtodo/)**: If I don't use the calendar agenda, just don't show it.
+* **[Remove Accessibility](http://extensions.gnome.org/extension/112/remove-accesibility/)**: Don’t need the functions in it and it’s one indicator less.
 
 
 ## License (MIT)
